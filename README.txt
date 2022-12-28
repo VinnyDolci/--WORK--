@@ -11,15 +11,17 @@ Version 1.0 Changelog:
             - name of procedure / medicine 
             - description of procedure / medicine
             - provider reference 
-                (I understand this to be a unique identifier for a healthcare provider under the network of the insurance company)
-                (This means that multiple providers may be listed for each billing code and therefore all provider references are)
-                (followed by a number                                                                                            )
+                (I understand this to be a unique identifier for a healthcare provider under the network of )
+                (the insurance company.                                                                     )
+                (This means that multiple providers may be listed for each billing code and therefore all   )
+                (provider references are followed by a number.                                              )
             - negotiated rate 
-                (I understand this to be the agreed upon price for a procedure/medicine as per the healthcare provider     )
-                (as some providers give multiple rates for the same procedure/medicine the numbering scheme is as follows: )
-                (negotiated_rate_[PROVIDER REFERENCE]_[RATE NUMBER]                                                        )
-                (ex. Provider X has rates 0, 1, 2 for some code.                                                           )
-                (   those rates can be found in columns 'negotiated_rate_X_0/1/2' respectively                             )
+                (I understand this to be the agreed upon price for a procedure/medicine as per the          )
+                (healthcare provider. As some providers give multiple rates for the same procedure/medicine )
+                (the numbering scheme is as follows:                                                        )
+                (negotiated_rate_[PROVIDER REFERENCE]_[RATE NUMBER]                                         )
+                (ex. Provider X has rates 0, 1, 2 for some code.                                            )
+                (   those rates can be found in columns 'negotiated_rate_X_0/1/2' respectively              )
             - billing class
                 (Same naming scheme as negotiated rate)
 
