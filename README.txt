@@ -1,5 +1,5 @@
-# MRF Conversion Tool
-### - Vincent Dolciato
+MRF Conversion Tool
+- Vincent Dolciato
 
 This file creation tool takes in json files from healthcare providers and converts them into a useable csv format.
 Later this csv will be used to create a SQL table that can provide healthcare prices to clients.
