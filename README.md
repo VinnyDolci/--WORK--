@@ -2,6 +2,7 @@
 #### Vincent Dolciato
 ###### This file creation tool takes in json files from healthcare providers and converts them into a useable csv format.
 Later this csv will be used to create a SQL table that can provide healthcare prices to clients.
+
 -------
 ###### Version 1.0 Changelog:
 * Created JSON to CSV functionality
@@ -33,4 +34,5 @@ Later this csv will be used to create a SQL table that can provide healthcare pr
     and not simply based on a count of providers for each code.
     eg. provider_reference_2760 instead of provider_reference_0/1/2/3/etc.
         negotiated_rate_2760_0/1/2/etc.
+        
 -------
