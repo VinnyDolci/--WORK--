@@ -27,7 +27,7 @@
 
 ###### Version 1.0 Unfinished (Plans for Version 1.1):
 * Not operating on a full dataset of 500 healthcare codes 
-    This was done for debugging simplicity, 500 codes will be added in final version
+    This was done for debugging simplicity, 500 codes will be added in next version
 * No actual rates are being added to the file
 * No classes are being added to the file
 * It may be more readable if the columns are named after the provider reference 
@@ -35,4 +35,16 @@
     eg. provider_reference_2760 instead of provider_reference_0/1/2/3/etc.
         negotiated_rate_2760_0/1/2/etc.
         
+-------
+
+###### Version 1.1 Changelog:
+* Operating on full dataset of 500 healtchare codes
+* Rates added
+* Billing Classes added
+
+###### Version 1.1 Unfinished:
+* Output file has hardcoded value.
+    This will remain as such for testing, prod version will output a csv filename identical to json input name
+* Tests need to be ran on input files from different providers. Currently only testing MedMeutual
+
 -------
